@@ -44,7 +44,7 @@ const Pagination: FC<IProps> = ({ totalItems, pageSize, activePage, onPageChange
           >
             <PaginationContainer align='center' justify='space-between' w='full'>
               <PaginationPrevious
-                  color='red.50'
+                  color='red.400'
                   fontSize='sm'
                   p='0'
                   w='8'
@@ -64,7 +64,7 @@ const Pagination: FC<IProps> = ({ totalItems, pageSize, activePage, onPageChange
                   align='center'
                   separator={
                     <PaginationSeparator
-                        color='red.50'
+                        color='red.400'
                         fontSize='sm'
                         w='8'
                         h='8'
@@ -76,7 +76,7 @@ const Pagination: FC<IProps> = ({ totalItems, pageSize, activePage, onPageChange
                 {pages.map((page: number) => (
                     <PaginationPage
                         bg='none'
-                        color='red.50'
+                        color='red.400'
                         fontSize='sm'
                         w='8'
                         h='8'
